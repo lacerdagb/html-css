@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('font/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #AED9E0;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    margin: 15px;
+}
+
+.a2 {
+    color: #00a1b9;
+    padding: 2px 2px;
+    background-color: #11a2b828 ;
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #AED9E0, #114B5F);
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #AED9E0, #FFFFFF);
+    margin: 15px;
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+}
+
+.saiba-mais {
+    background-color: #AED9E0;
+    border-radius: 20px 20px;
+    padding: 15px;
+}
+
+.teste {
+    background-color: #77969b;
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 5px 0px;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.671);
+}
+
+.a1:hover {
+    color: red;
+    border: 2px #72b6c0;
+    background-color: #72b6c0;
+    border-radius: 5px 5px;
+    text-decoration: none;
+
+}
+
+.sub {
+    text-align: center;
+    color: white;
+}
+
+.sub1 {
+    text-align: center;
+    color: white;
+}
+
+.cor {
+    color: #00a1b9;
+    padding: 2px 2px;
+    background-color: #11a2b828 ;
+}
+
+img {
+    width: 100%;
+}
+
+picture>.androidumano {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+iframe>.video1 {
+    margin: auto;
+    width: 50%;
+}
+
+nav>a {
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+    padding: 1px;
+}

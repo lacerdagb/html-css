@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(248, 205, 152);
+            margin: 0px;
+        }
+        header {
+            background-color: rgba(103, 103, 255, 0.616);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: black;
+            padding: 3px;
+        }
+        nav > a {
+            color:  white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 30px;
+
+        }
+        main {
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article {
+            background-color: aqua;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <header>   
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+
+    <main>
+ <section id="assuntos">
+    <p>Esporte Tecnologia Exercito</p>
+    <article>
+       
+    </article>
+    <article>
+        <h2>Noticias do BR</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, vero? Molestias beatae quidem magni dolores excepturi, possimus commodi saepe distinctio tempore, reiciendis, cumque optio ducimus nisi ea placeat consectetur tempora?</p>
+        <aside>
+            Escrito por GB Vs Code
+        </aside>
+    </article>
+ </section>
+ <section id="noticias">
+
+ </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Gabriel Lacerda</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>São listas que seguem um padrão de ordem. (OL) (OrdemList) <br>
+        <p> o final /li é opicional</p>
+    </p>
+    <ol type="1" > 
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Ir para academia</li>
+        <li>Comprar frutas</li>
+    </ol>
+    <p>Posso alterar o tipo da ordem usando a tag type dentro da tag ol, e também posso usar a tag start dentro da type, para seguir a sequência. Caso seja letra, a regra muda um pouco, eu uso a mesma tag, porém invés de colcoar a letra, eu sigo o número, ex type c / start 3.</p>
+    <h2>Listas não ordenadas</h2>
+    <p>São listas que não são numeradas. (UL) (UnorderList) </p>
+    <ul>
+        <li>Pão</li>
+        <li>Queijo</li>
+        <li>Patê</li>
+        <li>Banana</li>
+    </ul>
+    <p>Posso alterar o símbolo da listagem, usando a tag type  dentro da ul, porém não fica aparece a tag, só digitar a tag type e = .</p>
+    <ul type="square">
+ <li> disc (disco preto)</li>
+ <li> circle (bola aberta)</li>
+ <li>Square (quadrado)</li>
+</ul>
+<h2>Juntando linguagens</h2>
+<p>Misturando as Ol e Ul </p>
+    <ol>
+        <li>NES</li>
+        <ul type="disc">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 2</li>
+                <li>Mario Bros 3</li>
+            </ul>
+            <li>Aladim</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="disc">
+            <li>Mario Kart</li>
+            <li>Donckey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="disc">
+            <li>Bomba Pacth</li>
+            <li>Ben 10</li>
+        </ul>
+    </ol>
+    <h2>Lista de definição</h2>
+    <p>São Termos (DT) e Definições (DD), quando alguém procura a defenição de algo, o google prioriza o site que usa a tag de definição. MUITO IMPORTANTE colocar o (DL) de início</p>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de marcação para a criação de interação.</dd>
+    </dl> 
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Testando tamanhos de imagens, existe 3 passos,</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem-flexível">
+    </picture>
+    <ol>
+        <li>picture</li>
+        <li>img src</li>
+        <li>source media</li>
+    </ol>
+    <p>Mas tem adendos, como:</p>
+    <ul>
+        <li>Seguir a hierarquia, do menor para o maior</li>
+        <li>alterar o min para o max</li>
+        <li>pixel de 1050/750/350</li>
+        <li>digitar o endereço da foto</li>
+        <li>botar o png do type</li>
+    </ul>
+    
+    <h1>Reproduzindo sons</h1>
+    <p>Reproduzir sons em html</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/I Feel It All So Deeply - Bail Bonds.mp3" type="audio/mpeg">
+        <source src="midia/I Feel It All So Deeply - Bail Bonds.mp3" type="audio/ogg">
+    <p>Infelizmente, o seu navegador não suporta o arquivo de áudio. <a href="midia/I Feel It All So Deeply - Bail Bonds.mp3">Clique aqui para baixar essa melodia.</a> </p>
+    </audio>
+
+</body>
+</html>
