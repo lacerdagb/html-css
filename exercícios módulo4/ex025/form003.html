@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="Nome" id="inome" required minlength="5" maxlength="7" placeholder="Escreva seu nome completo" size="25">  <!--Função required é a opção (obrigatório)-->
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="Média" id="imedia" placeholder="0 a 10" min="0" max="10" step="0.1" required> <!--0.1 décimos, ou 0.5 (5 em 5)--> 
+        </p>
+        <p>
+            <label for="imes">Mês</label>
+            <input type="month" name="Mês" id="imes" value="2020-07">
+        </p>
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="Dia da Prova" id="idia">
+        </p>
+        <p>
+            <label for="ihora">Horário da prova</label>
+            <input type="time" name="Horário da prova" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"> 
+        </p>
+
+    </form>
+    
+</body>
+</html>
