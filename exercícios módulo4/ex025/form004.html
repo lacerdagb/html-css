@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="Nome" id="inome" autocomplete="email" required minlength="5" maxlength="20" placeholder="Nome Completo">
+            </p>
+            <p>
+                <label for="imail">E-mail</label>
+                <input type="email" name="E-mail" id="imail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="Telefone" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(XX)XXXX-XXXX">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </fieldset>
+    <!--Estudar sobre o RegEX para entender melhor os pattern
+        fieldset e legend-->
+
+
+    </form>
+    
+</body>
+</html>
