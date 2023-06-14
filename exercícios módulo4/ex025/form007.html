@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>  
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <option value="" selected>--Escolha--</option>
+            <optgroup label="Estados sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+
+            <optgroup label="Estados nordeste">
+                <option value="BH">Bahia</option>
+                <option value="TO">Tocantins</option>
+                <option value="MA">Maranhão</option>
+            </optgroup>
+            <!--PODE BOTAR O BOTÃO SELECTED PARA ALTERAR A PREFERÊNCIA-->
+        </select>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="profissão" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option >Professor</option>
+                <option >Militar</option>
+                <option value="COZ">Cozinheiro</option>
+                <option value="PAD">Padeiro</option>
+            </datalist>
+            <!--O VALUE APARECE NA LISTAGEM, FICA A CRITÉRIO DEIXAR O VALUE OU NÃO-->
+        </p>
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imgs" cols="50" rows="5" placeholder="Escreva sua mensagem..."></textarea>
+            <!--SE BOTAR O TEXT AREA, RECOMENDA BOTAR O METODO POST, POIS PODE OCORRER DO TEXTO ULTRAPASSAR 3K KBYTE-->
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>
