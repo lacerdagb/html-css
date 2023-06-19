@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.p" method="get">
+
+        <p>
+            <label for="inum1">Número 1</label>
+            <input type="number" name="number" id="inum1" min="5" max="20" required oninput="isoma.innerHTML = Number(inum1.value) + Number (inum2.value)">
+        </p>
+
+        <p>
+            <label for="inum2">Número 2</label>
+            <input type="number" name="number" id="inum2" min="5" max="20" required oninput="isoma.innerHTML = Number(inum1.value) + Number (inum2.value)">
+        </p>
+        <!--NO ENDEREÇO USANDO O "GET" NÃO APARECE O RESULTADO DA SOMA, E SIM OS NÚMEROS, A SOMA APARECE DE FORMA VISUAL-->
+        <label for="isoma">Soma:</label>
+        <output name="soma" id="isoma"></output>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
