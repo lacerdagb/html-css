@@ -1,0 +1,5 @@
+ Mobile First, tem a função de deixar o site mais leve possível, priorizando a experiencia rápida do usuário.
+Sites com mobile, ganham pontos a mais nas pesquisas do google
+Tem maior alcance, principalmente países pobres, e lugares com difícil acesso, como lugares do interior.
+ Mobile First, a ideia foi criada pelo criador do yahoo.
+Ideia de que, na construção do site, fazer primeiro a parte mobile, e depois migrar para o site desktop, pois é melhor acrescentar, do que retirar funções.
