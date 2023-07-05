@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media query</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/> <!--IMPORTANTE TER ESSE LINK PARA PEGAR OS ICONS DO GOOGLE--> 
+    <link rel="stylesheet" href="estilos/style.css"> 
 </head>
 <body>
     <header>
         <h1>Meu título</h1>
-    <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i> <!--ESSE TAMBÉM, DA PARA TROCAR O (MENU) POR OUTRO EMOTICON, SÓ ESCREVER (menu,face,favorite)-->
+    <menu id="itens">
         <ul>
             <li><a href="#">Opção 1</a></li>
             <li><a href="#">Opção 2</a></li>
@@ -33,6 +35,15 @@
         </p>
     </article>
 </main>
-    
+    <script>
+        function clickMenu() {
+            /*itens.style.display = 'block' APARECE MAIS NÃO FECHA*/ 
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none' 
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
